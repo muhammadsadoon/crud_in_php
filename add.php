@@ -100,7 +100,7 @@ include "protect.php";
     <section class="add-input-form">
         
     <div class="cantainer">
-        <form action="<?php echo $_SERVER["PHP_SLEF"]?>" method="post">
+        <form action="<?php echo $_SERVER["PHP_SELF"]?>" method="post">
             Name:<input type="text" name="nyname">
             addreas: <input type="text" name="myaddreas">
             class: <input type="text" name="myclass">
